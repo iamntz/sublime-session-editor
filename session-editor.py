@@ -16,7 +16,7 @@ def ask_user():
   print( len(title) * "=" )
   print( title )
   print( len(title) * "=" )
-
+  print( "Please make sure the editor is closed!\n" )
   for i in range(0, len( workspaces ) ):
     print( "[%d] %s" % ( i, workspaces[i] ) )
 
